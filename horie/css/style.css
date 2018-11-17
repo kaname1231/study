@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*-----------------------------------
+     リセット
+------------------------------------*/
+
+h1,p,ul,img,a{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,p,a,ul,li{
+    color: #333;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+}
+
+/*-----------------------------------
+     ベース
+------------------------------------*/
+
+.contents_inr{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.link_icon::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 5px;
+    background: url(../img/icon.gif) 0 0 no-repeat;
+}
+
+/*-----------------------------------
+     header
+------------------------------------*/
+
+
+header{
+    height: 150px;
+    background: url(../img/header_bg.png) 0 0 no-repeat;
+}
+
+.logo_area{
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.breadcrumbs{
+    margin-top: 55px;
+}
+
+.breadcrumbs li{
+    color: #fff;
+}
+
+.headea_info{
+    float: right;
+    margin-top: 20px;
+}
+
+.headea_link{
+    margin-left: 60px;
+}
+
+.headea_link li{
+    float: left;
+    margin-left: 10px;
+}
+
+.headea_link a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.tel{
+    margin-top: 12px;
+    margin-right: 18px;
+}
