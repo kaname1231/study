@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.body{
+    max-width: 980px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.body >h1{
+    font-size: 20px;
+}
+
+ul>li{
+    list-style: none;
+}
+
+ul>li:nth-child(2){
+    transform: rotateZ(-12deg);
+    color: aqua;
+    transition: 1s;
+}
+
+ul>li:nth-child(2):hover{
+    transform: rotateY(45deg);
+    font-size: 20px;
+}
