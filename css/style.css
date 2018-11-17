@@ -17,7 +17,7 @@ ul>li{
 
 ul>li:nth-child(2){
     transform: rotateZ(-12deg);
-    color: aqua;
+    color: crimson;
     transition: 1s;
 }
 
