@@ -4,7 +4,7 @@
      リセット
 ------------------------------------*/
 
-h1,p,ul,img,a{
+h1,h2,h3,h4,p,ul,img,a{
     margin: 0;
     padding: 0;
 }
@@ -27,6 +27,12 @@ img{
 /*-----------------------------------
      ベース
 ------------------------------------*/
+
+.contents_bg{
+    width: 920px;
+    background:  url(../img/wrap_bg.png) 0 0 repeat-y;
+    margin: 0 auto;
+}
 
 .contents_inr{
     width: 900px;
@@ -65,7 +71,7 @@ header{
 }
 
 .breadcrumbs{
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 .breadcrumbs li{
@@ -94,4 +100,217 @@ header{
 .tel{
     margin-top: 12px;
     margin-right: 18px;
+}
+
+.headea_link2{
+    margin-top: 3 px;
+}
+
+.headea_link2 li{
+    float: left;
+    padding: 0 6px;
+    border-right: solid 1px #eeeeee;
+}
+
+.headea_link2 a{
+    font-size: 12px;
+    color: #eeeeee;
+}
+
+
+/*-----------------------------------
+     nav
+------------------------------------*/
+
+.navigation li{
+    float: left;
+}
+
+/*-----------------------------------
+     main_cont
+------------------------------------*/
+
+.main_cont{
+    margin: 20px 10px 0;
+
+}
+
+/*-----------------------------------
+     left_cont
+------------------------------------*/
+
+.left_cont{
+    width: 655px;
+    float: left;
+}
+
+.art_contens{
+    margin-top: 5px;
+}
+
+.art_contens:first-child{
+    margin-top: 10px;
+}
+
+.art_cont {
+    margin-top: 10px;
+}
+
+.column2_item>div{
+    float: left;
+}
+
+.txt_area{
+    width: 415px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.btn{
+    margin-top: 25px;
+    text-align: right;
+}
+
+.art_toplink{
+    margin-top: 20px;
+    text-align: right;
+}
+
+.art_toplink a{
+    color: #0000ff;
+}
+
+
+/*-----------------------------------
+    right_cont
+------------------------------------*/
+
+.right_cont{
+    width: 205px;
+    float: left;
+    margin-left: 20px;
+}
+
+.news{
+    margin: 0 10px;
+}
+
+.news li{
+    margin-top: 10px;
+    border-top: solid 1px #ccc;
+}
+
+.news li:first-child{
+    margin-top: 0;
+    border: none;
+}
+
+.news li:last-child{
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 10px;
+}
+
+.news li p{
+    margin-top: 12px;
+}
+
+.bnr_area{
+    margin-top: 20px;
+}
+
+.bnr_area li{
+    margin-top: 10px;
+}
+
+.bnr_area li:first-child{
+    margin-top: 0;
+}
+
+.page_top_link{
+    text-align: right;
+    margin-right: 25px;
+}
+
+/*-----------------------------------
+    footer
+------------------------------------*/
+
+.footer_inr{
+    height: 190px;
+    background: url(../img/footer_bg.png) 0 0 no-repeat;
+}
+
+.footer_nav{
+    padding: 25px 0 0 25px;
+}
+
+.left_footer{
+    width: 475px;
+    float: left;
+}
+
+.menu_list{
+    float: left;
+    margin-left: 70px;
+}
+
+.menu_list:first-child{
+    margin-left: 0;
+}
+
+.menu_list p{
+    color: #fff;
+}
+
+.menu_list a{
+    color: #fff;
+}
+
+.menu_list li{
+    margin-top: 5px;
+}
+
+.menu_list li::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-right: 5px;
+    background: url(../img/arrow.gif) 0 0 no-repeat;
+}
+
+.footer_nav02{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.footer_nav02 a{
+    color: #fff;
+}
+
+.footer_nav02 li{
+    float: left;
+    padding: 0 6px;
+    border-left: solid 1px #fff; 
+}
+
+.footer_nav02 li:first-child{
+    padding-left: 0;
+    border-left: none;
+}
+
+.right_footer{
+    width: 285px;
+    float: right;
+}
+
+.right_footer{
+    margin-top: 40px;
+    padding-right: 15px;
+}
+
+.right_footer .copyright{
+    margin-top: 73px;
+    color: #fff;
 }
