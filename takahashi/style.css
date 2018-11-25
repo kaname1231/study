@@ -2,3 +2,29 @@
 ul li{
     list-style-type:none;
 }
+body,ul,li,h1,h2,div,section,img{
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+.fL{
+    float:left;
+}
+.fR{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+body{
+    width:100%;
+}
+#wrap{
+    width:980px;
+    height:auto;
+    margin:0 auto;
+}
+
+footer{
+    border:solid 1px red;
+}
